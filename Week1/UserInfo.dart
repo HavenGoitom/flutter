@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void userInfo(String name, int age) {
+void userInfo(String? name, int age) {
   print("Username: $name \nAge: ${age}");
 }
 
@@ -11,5 +11,5 @@ void main() {
   stdout.write("Enter your age: ");
   int age = int.parse(stdin.readLineSync()!);
 
-  userInfo(name!, age);
+  userInfo(name, age);
 }
