@@ -7,9 +7,6 @@ This is my first Flutter app.
 lib/
 ├── main.dart
 
-shell
-Copy code
-
 ### Widget Tree of the App
 
 MyApp (StatelessWidget)
@@ -24,11 +21,8 @@ MyApp (StatelessWidget)
 └── Center
 └── Text("This is my first Flutter app")
 
-yaml
-Copy code
 
 ### Screenshot
 
-Add your screenshot here:
 
 ![App Screenshot](screenshot.png)
