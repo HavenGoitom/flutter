@@ -1,16 +1,45 @@
-# daily_news
+# 📰 Daily News App (Flutter)
 
-A new Flutter project.
+Daily News is a modern Flutter mobile application that helps users stay informed with the latest news across multiple categories such as Technology, Sports, Business, Health, and more. The app focuses on clean UI, smooth navigation, and fast access to important news updates.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 **Home Screen**
+  - Displays featured news articles
+  - Category chips for quick browsing
+  - Clean and minimal UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🗂 **Categories Screen**
+  - Browse news by category
+  - Grid layout with icons and article counts
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ℹ️ **About Screen**
+  - App description and mission
+  - App version information
+
+- 📰 **News Detail Screen**
+  - Full article view with image and content
+  - Share and bookmark UI actions
+
+- 📁 **Local JSON Data**
+  - News loaded from local assets (`news.json`)
+  - Offline-friendly
+
+---
+
+## 📸 Screenshots
+
+Below are screenshots of the main app screens:
+
+| Home Screen | Categories Screen |
+|-------------|------------------|
+| ![Home Screen](screenshots/home.jpg) | ![Categories Screen](screenshots/categories.jpg) |
+
+| News Details | About Screen |
+|--------------|--------------|
+| ![News Details](screenshots/details.jpg) | ![About Screen](screenshots/about.jpg) |
+
+---
+
