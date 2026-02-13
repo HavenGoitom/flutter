@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "title": "Flutter is Taking Over Mobile Development",
+  "category": "Technology",
+  "time": "2 hours ago",
+  "image": "assets/images/news.jpg",
+  "summary": "Flutter allows developers to build beautiful apps using a single codebase.",
+  "content": "Flutter is an open-source UI software development kit created by Google. It is used to develop applications for Android, iOS, Linux, macOS, Windows, and the web from a single codebase.\n\nFlutter is loved by developers because it is fast, flexible, and easy to daily_news. Many companies are now switching to Flutter for building modern mobile applications."
+}
