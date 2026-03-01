@@ -11,8 +11,8 @@ A simple Flutter UI app showcasing the **Simien Mountains** with destinations an
 Hero image, top destinations, highlights, and bottom navigation.
 
 **Screenshots (used in README):**
-![Home Screenshot 1]week6\wild_life\ScreenShots\Screenshot 2026-03-01 193105.png
-![Home Screenshot 2]week6\wild_life\ScreenShots\Screenshot 2026-03-01 193157.png
+![Home Screenshot 1](ScreenShots/home1.png)
+![Home Screenshot 2](ScreenShots/home2.png)
 
 ---
 
