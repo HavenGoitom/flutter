@@ -1,17 +1,48 @@
-# wild_life
+# 🏔️ Simien Mountains Travel App
 
-A new Flutter project.
+A simple Flutter UI app showcasing the **Simien Mountains** with destinations and highlights. Built with `ImageCard` and `IconCard`.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screens
 
-A few resources to get you started if this is your first Flutter project:
+### 1️⃣ Home Screen
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Hero image, top destinations, highlights, and bottom navigation.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Screenshots (used in README):**
+![Home Screenshot 1]week6\wild_life\ScreenShots\Screenshot 2026-03-01 193105.png
+![Home Screenshot 2]week6\wild_life\ScreenShots\Screenshot 2026-03-01 193157.png
+
+---
+
+### 2️⃣ Top Destinations
+
+Features Ras Dashen and Geech Camp.
+
+**Screenshots:**
+![Destinations Screenshot 1](PASTE_IMAGE_LINK_HERE)
+![Destinations Screenshot 2](PASTE_IMAGE_LINK_HERE)
+
+---
+
+### 3️⃣ Highlights
+
+Hiking trails, wildlife viewing, and local villages.
+
+**Screenshots:**
+![Highlights Screenshot 1](PASTE_IMAGE_LINK_HERE)
+![Highlights Screenshot 2](PASTE_IMAGE_LINK_HERE)
+
+---
+
+## 🚀 Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+**Note:** If images don’t show on GitHub, make sure `README.md` and the `ScreenShots/` folder (with those files) are committed and pushed to the `wild_life` repo.
