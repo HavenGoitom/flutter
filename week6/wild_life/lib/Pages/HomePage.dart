@@ -2,9 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:wild_life/widget/ImageCard.dart';
 import 'package:wild_life/widget/iconCard.dart';
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
 
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int myIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,12 +19,12 @@ class MyHomePage extends StatelessWidget {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Icon(Icons.menu, size: 35,),
+            Icon(Icons.menu, size: 35),
             Text(
               "Simien Mountains",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
             ),
-            Icon(Icons.search, size:35),
+            Icon(Icons.search, size: 35),
           ],
         ),
       ),
@@ -164,62 +170,6 @@ class MyHomePage extends StatelessWidget {
             ),
           ),
         ],
-      ),
-      bottomNavigationBar: Container(
-        color: Colors.white,
-        padding: const EdgeInsets.symmetric(vertical: 8),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            // Home
-            Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                  icon: const Icon(Icons.home),
-                  color: Colors.blue,
-                  iconSize: 30,
-                  onPressed: () {
-                    print("Home clicked");
-                  },
-                ),
-                const Text("Home", style: TextStyle(fontSize: 12)),
-              ],
-            ),
-
-            // Explore
-            Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                  icon: const Icon(Icons.explore),
-                  color: Colors.grey,
-                  iconSize: 30,
-                  onPressed: () {
-                    print("Explore clicked");
-                  },
-                ),
-                const Text("Explore", style: TextStyle(fontSize: 12)),
-              ],
-            ),
-
-            // Profile
-            Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                IconButton(
-                  icon: const Icon(Icons.person),
-                  color: Colors.grey,
-                  iconSize: 30,
-                  onPressed: () {
-                    print("Profile clicked");
-                  },
-                ),
-                const Text("Profile", style: TextStyle(fontSize: 12)),
-              ],
-            ),
-          ],
-        ),
       ),
     );
   }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'screens/homeScreen.dart';
+import 'package:wild_life/Pages/HomePage.dart';
+import 'Pages/MainScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,8 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Simien Mountains',
-      home: MyHomePage(),
+      home: MainScreen(),
+      // routes: {"/homepage": (context) => const MyHomePage()},
     );
   }
 }
-
