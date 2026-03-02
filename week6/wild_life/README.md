@@ -16,9 +16,9 @@ Hero image, top destinations, highlights, and bottom navigation.
 
 ---
 
-### 2️⃣ Top Destinations
+### 2️⃣ Trails
 
-Features Ras Dashen and Geech Camp.
+Chenek Trail
 
 **Screenshots:**
 ![Destinations Screenshot 1](ScreenShots/explore1.png)
@@ -26,9 +26,9 @@ Features Ras Dashen and Geech Camp.
 
 ---
 
-### 3️⃣ Highlights
+### 3️⃣ Profile
 
-Hiking trails, wildlife viewing, and local villages.
+Personal Profile 
 
 **Screenshots:**
 ![Highlights Screenshot 1](PASTE_IMAGE_LINK_HERE)
