@@ -25,18 +25,39 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Welcome to Flutter"),
-        centerTitle: true,
-      ),
-      body: const Center(
-        child: Text(
-          "This is my first Flutter app",
-          style: TextStyle(
-            fontSize: 24, // Changed text size
-            color: Colors.deepPurple, // Changed text color
-          ),
-          textAlign: TextAlign.center,
+        title: Row(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Icon(Icons.shop),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(8, 8, 100, 8),
+              child: Text("MyShop"),
+            ),
+            Text("Products"),
+            Text("Cart"),
+          ],
         ),
+      ),
+      body: Stack(
+        alignment: Alignment.center,
+        children: [
+          Container(
+            height: 300, 
+            width: 400, 
+            color: const Color.fromARGB(255, 243, 33, 187)),
+            Container(
+            height: 200, 
+            width: 200, 
+            color: const Color.fromARGB(255, 33, 243, 75)),
+            Container(
+            height: 100, 
+            width: 100, 
+            color: const Color.fromARGB(255, 198, 243, 33)),
+            
+            ],
+            
       ),
     );
   }

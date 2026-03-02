@@ -21,8 +21,8 @@ Hero image, top destinations, highlights, and bottom navigation.
 Features Ras Dashen and Geech Camp.
 
 **Screenshots:**
-![Destinations Screenshot 1](PASTE_IMAGE_LINK_HERE)
-![Destinations Screenshot 2](PASTE_IMAGE_LINK_HERE)
+![Destinations Screenshot 1](ScreenShots/explore1.png)
+![Destinations Screenshot 2](ScreenShots/explore2.png)
 
 ---
 
