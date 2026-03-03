@@ -31,8 +31,8 @@ Chenek Trail
 Personal Profile 
 
 **Screenshots:**
-![Highlights Screenshot 1](PASTE_IMAGE_LINK_HERE)
-![Highlights Screenshot 2](PASTE_IMAGE_LINK_HERE)
+![Highlights Screenshot 1](ScreenShots/profile1.png)
+![Highlights Screenshot 2](ScreenShots/profile2.png)
 
 ---
 
