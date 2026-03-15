@@ -6,9 +6,9 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wild_life"
+    namespace = "com.example.product_catalog"
     compileSdk = flutter.compileSdkVersion
-    // ndkVersion = "28.2.13676358"
+    ndkVersion = "28.2.13676358"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.wild_life"
+        applicationId = "com.example.product_catalog"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

@@ -36,7 +36,7 @@ class ExplorePage extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          Container(
+          SizedBox(
             height: 400,
             child: ImageCard(
               imageURL: "assets/images/chenek.webp",
@@ -123,14 +123,23 @@ class ExplorePage extends StatelessWidget {
                     borderRadius: BorderRadiusGeometry.circular(30),
                     child: Column(
                       children: [
-                        Container(
+                        SizedBox(
                           height: 300,
                           width: double.infinity,
-                          child: Image.asset('assets/images/Gelada_Monkeys.jpg', fit: BoxFit.cover,),
+                          child: Image.asset(
+                            'assets/images/Gelada_Monkeys.jpg',
+                            fit: BoxFit.cover,
+                          ),
                         ),
                         Padding(
                           padding: const EdgeInsets.fromLTRB(8, 20, 8, 0),
-                          child: Text("Gelada Monkeys",style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                          child: Text(
+                            "Gelada Monkeys",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         ),
                       ],
                     ),
@@ -142,14 +151,23 @@ class ExplorePage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30),
                     child: Column(
                       children: [
-                        Container(
+                        SizedBox(
                           width: double.infinity,
                           height: 300,
-                          child: Image.asset('assets/images/walia_ibex.webp', fit: BoxFit.cover,),
+                          child: Image.asset(
+                            'assets/images/walia_ibex.webp',
+                            fit: BoxFit.cover,
+                          ),
                         ),
                         Padding(
                           padding: const EdgeInsets.fromLTRB(8, 20, 8, 0),
-                          child: Text("Walia Ibex", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+                          child: Text(
+                            "Walia Ibex",
+                            style: TextStyle(
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                         ),
                       ],
                     ),
@@ -169,14 +187,18 @@ class ExplorePage extends StatelessWidget {
                   backgroundColor: Colors.blue,
                   minimumSize: const Size(double.infinity, 100),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(12), 
+                    borderRadius: BorderRadius.circular(12),
                   ),
                 ),
                 onPressed: () {},
                 child: Center(
                   child: Text(
                     "Start Hike",
-                    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold,fontSize: 35),
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 35,
+                    ),
                   ),
                 ),
               ),
