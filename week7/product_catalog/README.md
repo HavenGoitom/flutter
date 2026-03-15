@@ -1,5 +1,3 @@
-````markdown
-````
 # Flutter E-Commerce App
 
 A simple e-commerce mobile app built with Flutter that fetches products from an API and displays them in a grid. Users can view product details on a separate screen.
@@ -90,8 +88,4 @@ lib/
 * The app demonstrates **Flutter state management**, **networking**, and **responsive UI**.
 * Use `RefreshIndicator` on the product list for pull-to-refresh functionality.
 
-```
-
-
-If you want, I can also **add badges for Flutter version, build status, and dependencies** to make your README look more professional. Do you want me to do that?
 ```
