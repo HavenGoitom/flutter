@@ -1,3 +1,5 @@
+Sure! I’ve fixed all the ``` markdown code block issues and cleaned up the formatting. Here’s a corrected and consistent version of your README:
+
 ````markdown
 # Flutter E-Commerce App
 
@@ -13,7 +15,7 @@ A simple e-commerce mobile app built with Flutter that fetches products from an 
 - Shows **loading** and **error** states  
 - Supports **pull-to-refresh** using `RefreshIndicator`
 
-**Screenshot:**
+**Screenshot:**  
 ![Product List Screen](screenshots/products.png)
 
 ---
@@ -30,7 +32,7 @@ A simple e-commerce mobile app built with Flutter that fetches products from an 
   - Star rating  
   - Back and share navigation icons
 
-**Screenshot:**
+**Screenshot:**  
 ![Product Detail Screen](screenshots/productDetail.png)
 
 ---
@@ -46,7 +48,7 @@ A simple e-commerce mobile app built with Flutter that fetches products from an 
 
 ## 🛠️ Installation
 
-1. Clone the repository:
+1. Clone the repository:  
    ```bash
    git clone https://github.com/HavenGoitom/flutter.git
 ````
@@ -56,11 +58,13 @@ A simple e-commerce mobile app built with Flutter that fetches products from an 
    ```bash
    cd week7/product_catalog
    ```
+
 3. Get dependencies:
 
    ```bash
    flutter pub get
    ```
+
 4. Run the app:
 
    ```bash
@@ -71,7 +75,7 @@ A simple e-commerce mobile app built with Flutter that fetches products from an 
 
 ## 📦 Project Structure
 
-```
+```text
 lib/
 ├── models/          # Product models
 ├── services/        # API services using Dio
@@ -87,6 +91,8 @@ lib/
 * The app demonstrates **Flutter state management**, **networking**, and **responsive UI**.
 * Use `RefreshIndicator` on the product list for pull-to-refresh functionality.
 
----
+```
 
+
+If you want, I can also **add badges for Flutter version, build status, and dependencies** to make your README look more professional. Do you want me to do that?
 ```
