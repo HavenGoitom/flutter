@@ -1,5 +1,3 @@
-Sure! I’ve fixed all the ``` markdown code block issues and cleaned up the formatting. Here’s a corrected and consistent version of your README:
-
 ````markdown
 # Flutter E-Commerce App
 
